@@ -62,4 +62,9 @@ button {
 }
 a {
     padding-top: 30px;
+    text-decoration: none;
+}
+footer {
+    height: 400px;
+    background-color: rgb(217, 217, 217);
 }
