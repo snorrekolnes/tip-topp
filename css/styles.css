@@ -1,0 +1,65 @@
+header {
+    height: 100px;
+    background-color: rgb(25, 31, 31);
+}
+* {
+    box-sizing: border-box;
+}
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.inner {
+    padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-family: 'Irish Grover', cursive;
+    color: rgb(217, 184, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+main {
+    height: 400px;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    font-family: 'Irish Grover', cursive;
+    color: rgb(217, 184, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+.container {
+    background-color: rgb(25, 31, 31);
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(217, 184, 193);
+    display: flex;
+    flex-direction: column;
+}
+button {
+    background-color: rgb(217, 184, 193);
+    border: none;
+    border-radius: 1px;
+    width: 70px;
+    height: 30px;
+}
+a {
+    padding-top: 30px;
+}
