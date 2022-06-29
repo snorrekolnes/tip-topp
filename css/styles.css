@@ -54,9 +54,10 @@ h2 {
     flex-direction: column;
 }
 button {
+    font-family: 'Irish Grover', cursive;
     background-color: rgb(217, 184, 193);
     border: none;
-    border-radius: 1px;
+    border-radius: 3px;
     width: 70px;
     height: 30px;
 }
@@ -67,4 +68,42 @@ a {
 footer {
     height: 400px;
     background-color: rgb(217, 217, 217);
+}
+img {
+    display: none;
+}
+@media screen and (min-width: 1023px) {
+    .container {
+        background-color: rgb(25, 31, 31);
+        height: 500px;
+        width: 600px;
+        border: 1px solid rgb(217, 184, 193);
+        display: flex;
+        flex-direction: column;
+    }
+    main {
+        height: 600px;
+        background-color: rgb(217, 217, 217);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        width: 300px;
+        margin: 0 auto;
+        padding-top: 30px;
+        border-radius: 5px;
+    }
+    button {
+        font-family: 'Irish Grover', cursive;
+        background-color: rgb(217, 184, 193);
+        border: none;
+        border-radius: 3px;
+        width: 100px;
+        height: 50px;
+    }
 }
